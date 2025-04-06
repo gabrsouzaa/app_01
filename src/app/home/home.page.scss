@@ -25,3 +25,65 @@
 #container a {
   text-decoration: none;
 }
+
+ion-content {
+  --background: #000; 
+  --padding-start: 16px; 
+  --padding-end: 16px; 
+  --padding-top: 16px;
+  --padding-bottom: 16px; 
+}
+
+.cartao-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: calc(100vh - 56px); 
+}
+
+.cartao {
+  background-color: #1a1a1a; 
+  color: #fff; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 40px; 
+  text-align: center; 
+  width: 95%; 
+  max-width: 600px; 
+}
+
+.foto-perfil {
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%;
+  object-fit: cover; 
+  margin-bottom: 20px; 
+  border: 5px solid #333; 
+}
+
+h2 {
+  color: #eee; 
+  margin-top: 0; 
+  margin-bottom: 10px; 
+  font-size: 1.5em; 
+}
+
+p {
+  margin-bottom: 8px; 
+  font-size: 1rem; 
+  line-height: 1.5; 
+  font-size: 1.2rem; 
+
+  strong {
+    color: #ccc; 
+    font-weight: bold; 
+  }
+
+  a {
+    color: #007bff; 
+    text-decoration: none; 
+    &:hover {
+      text-decoration: underline; 
+    }
+  }
+}
